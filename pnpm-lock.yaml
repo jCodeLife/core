@@ -63,7 +63,7 @@ importers:
       '@types/hash-sum': 1.0.0
       '@types/jest': 27.0.3
       '@types/node': 16.11.12
-      '@types/puppeteer': 5.4.4
+      '@types/puppeteer': 5.4.7
       '@typescript-eslint/parser': 5.23.0_hxadhbs2xogijvk7vq4t2azzbu
       '@vue/reactivity': link:packages/reactivity
       '@vue/runtime-core': link:packages/runtime-core
@@ -1179,8 +1179,8 @@ packages:
     resolution: {integrity: sha512-ekoj4qOQYp7CvjX8ZDBgN86w3MqQhLE1hczEJbEIjgFEumDy+na/4AJAbLXfgEWFNB2pKadM5rPFtuSGMWK7xA==}
     dev: true
 
-  /@types/puppeteer/5.4.4:
-    resolution: {integrity: sha512-3Nau+qi69CN55VwZb0ATtdUAlYlqOOQ3OfQfq0Hqgc4JMFXiQT/XInlwQ9g6LbicDslE6loIFsXFklGh5XmI6Q==}
+  /@types/puppeteer/5.4.7:
+    resolution: {integrity: sha512-JdGWZZYL0vKapXF4oQTC5hLVNfOgdPrqeZ1BiQnGk5cB7HeE91EWUiTdVSdQPobRN8rIcdffjiOgCYJ/S8QrnQ==}
     dependencies:
       '@types/node': 16.11.12
     dev: true
