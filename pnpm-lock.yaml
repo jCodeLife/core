@@ -61,7 +61,7 @@ importers:
       '@rollup/plugin-node-resolve': 11.2.1_rollup@2.38.5
       '@rollup/plugin-replace': 2.4.2_rollup@2.38.5
       '@types/hash-sum': 1.0.0
-      '@types/jest': 27.0.3
+      '@types/jest': 27.5.2
       '@types/node': 16.11.12
       '@types/puppeteer': 5.4.4
       '@typescript-eslint/parser': 5.23.0_hxadhbs2xogijvk7vq4t2azzbu
@@ -95,7 +95,7 @@ importers:
       semver: 7.3.5
       serve: 12.0.1
       todomvc-app-css: 2.4.1
-      ts-jest: 27.1.1_3hnzclobtp5be2lqcsbwijsi7u
+      ts-jest: 27.1.1_xzayrtjr4vxqtaxsifmvkk5xye
       tslib: 2.4.0
       typescript: 4.7.4
       vite: 2.9.8
@@ -1140,10 +1140,10 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.0.3:
-    resolution: {integrity: sha512-cmmwv9t7gBYt7hNKH5Spu7Kuu/DotGa+Ff+JGRKZ4db5eh8PnKS4LuebJ3YLUoyOyIHraTGyULn23YtEAm0VSg==}
+  /@types/jest/27.5.2:
+    resolution: {integrity: sha512-mpT8LJJ4CMeeahobofYWIjFo0xonRS/HfxnVEPMPFSQdGUt1uHCnoPT7Zhb+sjDU2wz0oKV0OLUR0WzrHNgfeA==}
     dependencies:
-      jest-diff: 27.4.2
+      jest-matcher-utils: 27.4.2
       pretty-format: 27.4.2
     dev: true
 
@@ -1483,7 +1483,7 @@ packages:
     dev: true
 
   /ansi-regex/3.0.0:
-    resolution: {integrity: sha1-7QMXwyIGT3lGbAKWa922Bas32Zg=}
+    resolution: {integrity: sha512-wFUFA5bg5dviipbQQ32yOQhl6gcJaJXiHE7dvR8VYPG97+J/GNC5FKGepKdEDUFeXRzDxPF1X/Btc8L+v7oqIQ==}
     engines: {node: '>=4'}
     dev: true
 
@@ -6757,7 +6757,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-jest/27.1.1_3hnzclobtp5be2lqcsbwijsi7u:
+  /ts-jest/27.1.1_xzayrtjr4vxqtaxsifmvkk5xye:
     resolution: {integrity: sha512-Ds0VkB+cB+8g2JUmP/GKWndeZcCKrbe6jzolGrVWdqVUFByY/2KDHqxJ7yBSon7hDB1TA4PXxjfZ+JjzJisvgA==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
     hasBin: true
@@ -6778,7 +6778,7 @@ packages:
       esbuild:
         optional: true
     dependencies:
-      '@types/jest': 27.0.3
+      '@types/jest': 27.5.2
       bs-logger: 0.2.6
       esbuild: 0.14.35
       fast-json-stable-stringify: 2.1.0
